@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body 
+{
+    
+    height: 100%;
+    width: 100%;
+}
+
+#main 
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.878);
+}
+
+#main #circle
+{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.008);
+    border-radius: 50%;
+    border: 0.3px solid rgba(0, 0, 0, 0.131);
+}
+
+#main #circle h5
+{
+    position: absolute;
+    left: 54%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.234);
+}
+
+#main #circle:hover
+{
+    background-color: rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+}
+
+#main #line
+{
+   position: absolute;
+   top: 70%;
+   width: 100%;
+   height: 6%;
+   background-color: rgba(238, 236, 236, 0.022);
+   border: 0.2px solid rgba(255, 255, 255, 0.357);
+   border-left: none;
+   border-right: none;
+}
+
+#main #line #one
+{
+    font-family: Gilroy;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.645);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0,-50%);
+}
+#main #line #two
+{
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translate(0,-50%);
+    font-family: Gilroy;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.672);
+}
+
+#main #line:hover
+{
+    background-color: rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+}
+
+#left
+{
+    height: 100%;
+    width: 30%;
+}
+
+#text
+{
+    position: absolute;
+    left: 18%;
+    top: 20%;
+}
+
+#text h1
+{
+    
+    color: rgba(255, 255, 255, 0.809);
+    font-size: 50px;
+    font-family: Gilroy;
+    letter-spacing: 0px;
+}
+
+#text #red:hover
+{
+   -webkit-text-stroke-color: white; 
+   -webkit-text-stroke-width: 1.9px;
+   -webkit-text-fill-color: transparent;
+   cursor: pointer;
+}
+
+#left #name 
+{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.809);
+    font-size:25px;
+    font-family: Gilroy;
+    top: 79.5%;
+    left: 2.5%;
+}
+
+#left #name #up
+{
+    color: rgba(255, 255, 255, 0.809);
+}
+
+#left #leftup a
+{
+    font-size: 20px;
+    font-family: Gilroy;
+    color: rgba(255, 255, 255, 0.809);
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+    
+#center
+{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1611510338559-2f463335092c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG5pa2UlMjBzaG9lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#center #midname h1
+{
+        font-size: 58px;
+        position: absolute;
+        font-optical-sizing: initial;
+        font-family: Gilroy;
+        color: rgba(0, 0, 0, 0.72);
+        top: 82%;
+        left: 31%;
+}
+
+#center #midname #star
+{
+    font-size: 58px;
+    font-family: Gilroy;
+}
+
+#center #midupname h4
+{
+        font-size: 20px;
+        font-family: Gilroy;
+        color: rgba(0, 0, 0, 0.72);
+        position: absolute;
+        top: 3%;
+        left: 32%;
+}
+
+#center #midupname h4 a
+{
+    color: rgba(0, 0, 0, 0.72);
+}
+
+#right
+{
+    height: 100%;
+    width: 20%;
+    background-image: url(https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bmlrZXxlbnwwfHwwfGJsYWNrfA%3D%3D&auto=format&fit=crop&w=800&q=60);
+}
+
+#right #rtname h4
+{
+    font-size: 20px;
+    font-family: Gilroy;
+    position: absolute;
+    top: 3%;
+    left: 82%;
+}
+
+#right #rtname a
+{
+    color: rgba(255, 255, 255, 0.809);
+}
+
+#right #rtop
+{
+    width: 100%;
+    height: 80%;
+}
+
+#right #rbot
+{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+#right #rbot:hover
+{
+    -webkit-text-stroke-color: white; 
+    -webkit-text-stroke-width: 1.9px;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+#right #rbot1
+{
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Gilroy;
+    color: rgba(255, 255, 255, 0.809);
+    position: absolute;
+    left: 40%;
+    top: 19.5%;
+    transform: translate(-50%, -50%);
+}
+
+#right #rbot2
+{
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Gilroy;
+    color: rgb(235, 60, 60);
+    position: absolute;
+    left: 45%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+}
